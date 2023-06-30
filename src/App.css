@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+h2{
+  color: grey;
+  /* margin: 2rem 0; */
+}
+
+/* .app__container{
+  background: #ccc;
+  min-height: 100vh;
+
+} */

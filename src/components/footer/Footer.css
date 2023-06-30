@@ -1,0 +1,17 @@
+.footer__container{
+    /* text-align: center; */
+    position: relative;
+    margin: 2rem 0 0 0 ;
+}
+
+.footer__line{
+    height: 1px;
+    width: 100%;
+    background: grey;
+    position: absolute;
+}
+
+.copyright{
+    text-align: center;
+    color: grey;
+}

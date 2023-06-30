@@ -1,0 +1,56 @@
+.contact__details_container{
+    max-width: 600px;
+    /* border: 1px solid black; */
+
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 35px;
+    font-weight: 200;
+
+    margin-bottom: 1rem;
+
+    color: grey;
+}
+
+.about__paragraph{
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.socials{
+    margin-bottom: 2rem;
+}
+
+.social__icon{
+    margin-left: 1rem;
+    cursor: pointer;
+    font-size: 25px;
+    transition: all ease-in-out 0.2s;
+
+    color: black;
+    text-decoration: none;
+}
+
+.social__icon:hover{
+    color: #ffde00;
+}
+
+a{
+    text-decoration: none;
+    color: #ffde00;
+    font-weight: 700;
+}
+.contact__number{
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:912px) {
+    .contact__details_container{
+        max-width: 300px;
+    }
+    h3{
+        font-size: 25px;
+    }
+}

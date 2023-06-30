@@ -1,0 +1,52 @@
+.hero__container{
+    position: relative;
+}
+.hero__text{
+    position: absolute;
+    z-index: 99;
+    color: white;
+    min-width: 500px;
+
+    text-align: center;
+
+    margin: 10rem 12rem;
+    background: rgba(0, 0, 0, 0.61);
+    padding: 2rem 4rem;
+}
+.hero__bg{
+    width: 100%;
+    height: 35rem;
+}
+.overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.237);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.hero__heading{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.paragraph{
+    text-align: justify;
+}
+
+@media screen and (max-width:670px) {
+    .hero__bg{
+        height: 16rem;
+    }
+    .hero__text{
+        margin: 2rem 2rem 2rem 3rem;
+        max-width: 300px;
+        min-width: 100px;
+
+        padding: 1rem 2rem;
+    }
+    .hero__heading{
+        font-size: 20px;
+    }
+    .paragraph{
+        font-size: 10px;
+    }
+}
